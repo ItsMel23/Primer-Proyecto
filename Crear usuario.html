@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="REGISTRO.CSS">
+    <link rel="shortcut icon" href="./icom.png" type="image/x-icon">
+    <title>REGISTRARSE - Fairy Legends</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/mjvljljq" autocomplete="off" target="_self" method="post">
+
+    <h1>Fairy Legends</h1>
+
+    <main>
+
+    <h2>REGISTRARSE</h2>
+
+    <div>
+    <label id="Nombre" for="Nombre">Nombre: </label><br>
+    <input type="text" id="Nombre" name="nombre" autofocus required><br>
+
+
+    <label id="Usuario" for="Usuario">Usuario: </label><br>
+    <input type="text" id="Usuario" name="usuario" maxlength="10" minlength="3"required><br>
+
+    <label id="email" for="email">E-mail</label><br>
+    <input type="email" name="email" id="email" placeholder="usuario@gmail.com" required><br>
+
+    <label id="password" for="password">Contraseña:</label><br>
+    <input type="password" name="contraseña" id="password" minlength="8" placeholder="ah8xywe5" required ><br>
+
+    <label id="cpass" for="cpass">Confirmar contraseña:</label><br>
+    <input type="password" name="ccontraseña" id="cpass" required><br>
+
+
+    <fieldset>
+    <legend id="radio">Género</legend>
+
+    <input type="radio" id="radio" name="genero" value="Femenino"required>
+    <label id="radio" for="radio">Femenino</label>
+
+    <input type="radio" id="radio" name="genero" value="Masculino"required>
+    <label id="radio" for="radio">Masculino</label>
+
+    <input type="radio" id="radio" name="genero" value="Otro"required>
+    <label id="radio" for="radio">Otro</label> <br>
+    </fieldset> 
+
+    
+    <legend id="cont">Continentes<legend>
+        <select required name="continente" id="cont">
+        <option value="Europa">Europa</option>
+        <option value="América">América</option>
+        <option value="Asia" >Asia</option>
+    </select>
+
+    <p>(Nota: esto definirá la zona de su server y el idioma predominante entre otros jugadores)</p>
+    
+    <input type="submit" id="envio" value="Registrarse">
+
+    </div>
+    
+    </main>
+
+    </form>
+</body>
+</html>

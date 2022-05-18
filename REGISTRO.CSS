@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    background-image:url(./back2.jpg);   
+    background-repeat:no-repeat;
+    background-size: 1600px 1080px;
+    background-color: rgb(236, 202, 221);
+}
+form{
+    padding-bottom: 80px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+h1{
+    font-style: oblique;
+    font-family: 'Cookie', cursive;
+    font-size: 110px;
+    text-align: center;
+    color: rgb(209, 155, 181);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+main{
+    border-style:groove;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+}
+
+div{
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 90px;
+}
+
+#Nombre{
+    margin-bottom: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+#Usuario{
+    margin-bottom: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+#email{
+    margin-bottom: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+#password{
+    margin-bottom: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+#cpass{
+    margin-bottom: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+#radio{
+    margin-bottom: 15px;
+    font-family: 'Space Mono', monospace;    
+    outline-style: none;
+}
+
+
+#cont{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+p{
+    margin-bottom: 25px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.664);
+    border-width: 1px;
+    color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+#envio{
+    background-color: rgb(206, 122, 150);
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    margin-bottom: 25px;
+    font-family: 'Space Mono', monospace;
+}
